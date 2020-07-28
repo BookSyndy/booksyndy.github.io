@@ -47,6 +47,12 @@ html {
   }
 }
 
+@media (min-width: 1700px) {
+  .container {
+    max-width: 1530px !important;
+  }
+}
+
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 100%;
   padding-right: 15px;

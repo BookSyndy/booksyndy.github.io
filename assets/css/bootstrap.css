@@ -353,6 +353,46 @@ template {
   display: none !important;
 }
 
+/* section home */
+.device-galaxy-s8 {
+  transform: scale(0.8);
+  top: 25%;
+  margin-top: -2rem;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 3.5rem;
+}
+
+.hero-paragraph {
+  text-align: center;
+  color: #00909E;
+  font-weight: 500;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.hero-subparagraph {
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.hero-text .btn-lg {
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
@@ -537,6 +577,10 @@ pre code {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
+}
+
+.wrapper{
+  height: 100vh;
 }
 
 .container {
@@ -2579,8 +2623,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #00909E;
+  border-color: #00909E;
 }
 
 .btn-primary:hover {
@@ -4348,7 +4392,7 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  position: relative;
+  position: sticky !important;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;

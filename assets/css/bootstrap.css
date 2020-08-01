@@ -433,6 +433,31 @@ template {
   }
 }
 
+/* section about */
+.about {
+  overflow: hidden;
+}
+.can {
+  height: 100vh;
+  background-color: #00909E;
+  text-align: center;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 4rem;
+  color: white;
+  margin-top: -10%;
+}
+
+.about .bg-text {
+  font-weight: 700;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.3);
+  margin-left: -8%;
+  margin-top: -10%;
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
@@ -4848,11 +4873,11 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: #00909E;
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
+  color: #00909E;
   /* border-color: rgba(0, 0, 0, 0.1); */
 }
 
@@ -4869,7 +4894,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color:#00909E;
 }
 
 .card {

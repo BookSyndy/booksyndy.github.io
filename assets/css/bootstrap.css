@@ -500,7 +500,30 @@ template {
 
 .about .aftercan {
   color: #00909E;
-  font-size: 4rem;
+  font-size: 3.5rem;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.about .bg-icon {
+  color: rgba(0, 0, 0, 0.1);
+  font-size: 15rem;
+  position: absolute;
+  transform: translateX(-85px) translateY(-80px);
+}
+
+.about .fa-shopping-cart {
+  transform: translateX(-200px) translateY(-60px)
+}
+
+.about .container .col-md-6 {
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 8rem;
+}
+
+.about .container h2 {
+  font-weight: 600;
 }
 
 h1, h2, h3, h4, h5, h6,

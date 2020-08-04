@@ -437,7 +437,7 @@ template {
 .about {
   overflow: hidden;
 }
-.can {
+.cans {
   height: 100vh;
   background-color: #00909E;
   text-align: center;
@@ -456,6 +456,46 @@ template {
   color: rgba(255, 255, 255, 0.3);
   margin-left: -8%;
   margin-top: -10%;
+}
+
+.can {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: #dae1e7;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.can i {
+  /* float: left; */
+  /* font-size: 2rem; */
+  margin-right: 15px;
+}
+
+.can h4 {
+  text-align: left;
+  margin-bottom: 0rem;
+}
+
+.cans .col-lg-3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.can .fa-circle {
+  color: #dae1e7;
+}
+
+.can .fa-tree, .fa-broom, .fa-rupee-sign, .fa-user-graduate {
+  color: #42A9B4;
+}
+
+.can .fa-stack {
+  font-size: 2rem;
 }
 
 h1, h2, h3, h4, h5, h6,

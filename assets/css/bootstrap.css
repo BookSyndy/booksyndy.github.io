@@ -438,7 +438,7 @@ template {
   overflow: hidden;
 }
 .cans {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #00909E;
   text-align: center;
 }
@@ -496,6 +496,11 @@ template {
 
 .can .fa-stack {
   font-size: 2rem;
+}
+
+.about .aftercan {
+  color: #00909E;
+  font-size: 4rem;
 }
 
 h1, h2, h3, h4, h5, h6,

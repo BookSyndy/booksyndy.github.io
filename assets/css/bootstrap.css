@@ -35,6 +35,7 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+
 *,
 *::before,
 *::after {
@@ -454,11 +455,12 @@ template {
   font-weight: 700;
   font-size: 8rem;
   color: rgba(255, 255, 255, 0.3);
-  margin-left: -8%;
+  margin-left: -12%;
   margin-top: -10%;
 }
 
 .can {
+  display: flex;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 0.5rem;
   padding: 1rem;
@@ -561,14 +563,13 @@ template {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1200px){
-  .cans .fa-stack {
-    float: none !important;
-  }
-}
-
 @media (min-width: 1200px) {
 
+  .cans .col-xl-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
 }
 
 
@@ -7065,6 +7066,9 @@ button.bg-danger:focus {
 
 .bg-light.scrolled {
   background: #dae1e7 !important;
+  /* box-shadow: 0 2px 2px -2px rgba(0,0,0,.2); */
+  /* background: white !important; */
+
 }
 
 a.bg-light:hover, a.bg-light:focus,

@@ -438,7 +438,7 @@ template {
   overflow: hidden;
 }
 .cans {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: #00909E;
   text-align: center;
 }
@@ -479,7 +479,7 @@ template {
   margin-bottom: 0rem;
 }
 
-.cans .col-lg-3 {
+.cans .col-xl-3 {
   margin-top: 15px;
   margin-bottom: 15px;
   padding-right: 50px;
@@ -496,6 +496,7 @@ template {
 
 .can .fa-stack {
   font-size: 2rem;
+  margin-right: 5px;
 }
 
 .about .aftercan {
@@ -513,10 +514,10 @@ template {
 }
 
 .about .fa-shopping-cart {
-  transform: translateX(-200px) translateY(-70px)
+  transform: translateX(-200px) translateY(-90px)
 }
 
-.about .container .col-md-6 {
+.about .container .col-lg-6 {
   padding-right: 30px;
   padding-left: 30px;
   margin-top: 8rem;
@@ -525,6 +526,51 @@ template {
 .about .container h2 {
   font-weight: 600;
 }
+
+@media (max-width: 576px) {
+  .cans{
+    min-height: 100vh;
+  }
+}
+
+@media (min-width:576px) {
+  .about .bg-text {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .cans .col-xl-3 {
+    margin-bottom: 50px;
+  }
+
+  .about .bg-icon {
+    font-size: 10rem;
+    transform: translateX(-60px) translateY(-50px);
+  }
+
+  .about .fa-shopping-cart {
+    transform: translateX(-100px) translateY(-80px);
+  }
+}
+
+@media (min-width: 992px) {
+  .cans .about-title {
+    margin-top: -7%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+  .cans .fa-stack {
+    float: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+
+}
+
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {

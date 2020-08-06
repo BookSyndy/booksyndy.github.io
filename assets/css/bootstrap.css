@@ -68,10 +68,10 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
-/* 
+
 section{
-  padding: 55px 0;
-} */
+  scroll-margin: 55px;
+}
 
 hr {
   box-sizing: content-box;
@@ -369,6 +369,7 @@ template {
   margin-top: -2rem;
   border-radius: 55px;
   transition: 1s;
+  z-index: 0;
 }
 
 .hero-text {
@@ -450,6 +451,8 @@ template {
 /* section about */
 .about {
   overflow: hidden;
+  /* padding: 55px 0; */
+  
 }
 .cans {
   /* min-height: 100vh; */

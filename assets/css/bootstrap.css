@@ -410,7 +410,6 @@ template {
     transform: scale(1);
     margin-top: 5rem;
   }
-
 }
 
 @media (min-width:992px) {
@@ -568,8 +567,15 @@ template {
   }
 
   .about .fa-shopping-cart {
-    transform: translateX(-100px) translateY(-80px);
+    transform: translateX(-100px) translateY(-40px);
   }
+    
+  .about .container .col-lg-6 {
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+  }
+
+
 }
 
 @media (min-width: 992px) {

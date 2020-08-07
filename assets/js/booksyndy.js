@@ -16,6 +16,15 @@ $(document).ready(function(){
 		var hash = this.hash;
 		$('html, body').animate({ scrollTop: $(hash).offset().top - 55 },750);
 		}
-    });
+	});
+	
+	$('#logo').on('click', function(){
+		if (this.hash !== "") {
+		event.preventDefault();
+
+		var hash = this.hash;
+		$('html, body').animate({ scrollTop: $(hash).offset().top - 55 },750);
+		}
+	});
 });
 

@@ -368,7 +368,7 @@ template {
   transform: scale(0.8);
   margin-top: -2rem;
   border-radius: 55px;
-  transition: 1s;
+  transition: 750ms;
   z-index: 0;
 }
 
@@ -399,7 +399,7 @@ template {
   padding: 0.5rem 2rem;
   font-size: 1.5rem;
   border-radius: 2rem;
-  transition: 1s;
+  transition: 750ms;
 }
 
 @media (min-width:576px) {
@@ -484,7 +484,7 @@ template {
   font-size: 1.25rem;
   font-weight: 500;
   text-align: left;
-  transition: 1s;
+  transition: 750ms;
 }
 
 .can i {

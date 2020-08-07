@@ -4560,6 +4560,7 @@ input[type="button"].btn-block {
 .nav-icon{
   padding-right: 0rem !important;
 }
+
 .nav-tabs .nav-link {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
@@ -4670,6 +4671,28 @@ input[type="button"].btn-block {
   list-style: none;
 }
 
+.nav-icons {
+  display: flex;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav{
+    text-align: center;
+  }
+  .nav-item {
+    padding-right: 0rem !important;
+  }
+  .nav-icons{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 10px;
+  }
+  .nav-icon {
+    padding-right: 1rem !important;
+    padding-left: 1rem;
+  }
+}
+
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
@@ -4717,7 +4740,6 @@ input[type="button"].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%;
 }
-
 
 #nav-icon4 {
   width: 28px;

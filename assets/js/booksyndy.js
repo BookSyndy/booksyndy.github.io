@@ -6,7 +6,7 @@ $(document).ready(function(){
 	$('#nav-icon4').click(function(){
 		$(this).toggleClass('open');
 	});
-	$('.navbar a').on('click', function(){
+	$('#navbarNav a').on('click', function(){
         $("#navbarNav").removeClass("show")
 		$("#nav-icon4").toggleClass("open")
 		if (this.hash !== "") {

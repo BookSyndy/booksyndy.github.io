@@ -69,10 +69,6 @@ body {
   outline: 0 !important;
 }
 
-section{
-  /* scroll-margin: 55px; */
-}
-
 hr {
   box-sizing: content-box;
   height: 0;

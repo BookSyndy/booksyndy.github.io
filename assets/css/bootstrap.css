@@ -54,6 +54,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+section {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   font-family: "poppins", sans-serif;
@@ -463,12 +467,15 @@ template {
   margin-top: -10%;
 }
 
-.about .bg-text {
+.bg-text{
   font-weight: 700;
   font-size: 8rem;
-  color: rgba(255, 255, 255, 0.3);
+}
+
+.about .bg-text {
   margin-left: -12%;
   margin-top: -10%;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .can {
@@ -618,6 +625,21 @@ template {
     transform: scale(1);
   }
 }
+
+/* section how */
+
+.how {
+  margin-top: 2rem;
+}
+
+.how .bg-text {
+  color: #dae1e7;
+  text-align: center;
+  font-size: 11.5rem;
+  margin-left: -10%;
+}
+
+
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {

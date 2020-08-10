@@ -359,6 +359,10 @@ template {
   display: none !important;
 }
 
+.device-galaxy-s8 {
+  border-radius: 55px;
+}
+
 /* section home */
 .home {
   overflow: hidden;
@@ -367,7 +371,6 @@ template {
 .home .device-galaxy-s8 {
   transform: scale(0.8);
   margin-top: -2rem;
-  border-radius: 55px;
   transition: 750ms;
   z-index: 0;
 }
@@ -639,6 +642,14 @@ template {
   margin-left: -10%;
 }
 
+.how .row {
+  margin-top: -6rem;
+}
+
+.how .device-galaxy-s8 {
+  transform: scale(0.5);
+  margin-top: -12rem;
+}
 
 
 h1, h2, h3, h4, h5, h6,

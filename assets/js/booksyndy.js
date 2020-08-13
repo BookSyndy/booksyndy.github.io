@@ -56,6 +56,11 @@ function changeImageEnjoy(){
 	img3.src = './assets/img/profile.png'
 }
 
+$('.step').on('click', function(){
+    $('.step').removeClass('selected');
+    $(this).addClass('selected');
+});
+
 // var myimg= document.getElementById("imgDisp");
 // var images=[
 //     "./assets/img/buy_sell.png",

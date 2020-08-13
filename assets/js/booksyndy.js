@@ -26,5 +26,14 @@ $(document).ready(function(){
 		$('html, body').animate({ scrollTop: $(hash).offset().top - 55 },750);
 		}
 	});
+
 });
 
+function changeImage(imgName) {
+	image=document.getElementById('imgDisp');
+	image.src = imgName;
+}
+
+// $('.step').click(function(){
+// 	$(this).toggleClass('clicked');
+// });

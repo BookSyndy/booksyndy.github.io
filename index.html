@@ -11,7 +11,6 @@
     <link rel='stylesheet' href="./assets/css/bootstrap.css">
     <link rel='stylesheet' href="./assets/css/bootstrap-grid.css">
     <link rel="stylesheet" href="./assets/css/devices.css">
-
     <!-- font -->
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
@@ -164,7 +163,7 @@
             <div class="row">
                 <div class="device device-galaxy-s8 device-blue mx-auto">
                     <div class="device-frame">
-                    <img class="device-content" src="./assets/img/device-screen.png">
+                        <img class="device-content" src="./assets/img/download.png" alt="playstore" id="imgDisp">
                     </div>
                     <div class="device-stripe"></div>
                     <div class="device-header"></div>
@@ -173,10 +172,42 @@
                     <div class="device-power"></div>
                 </div>
                 <div class="col-lg-6">
+                    <h1 class="how-title">How to start</h1>
+                    <div class="step" onclick="changeImage('./assets/img/download.png')">
+                        <i class="fas fa-download"></i>
+                        <div class="text">
+                            <h6>step 1:</h6>
+                            <h5>Download the app</h5>
+                            <p>It is absolutely free to download from the google play store</p>
+                        </div>
+                    </div>
+                    <div class="step" onclick="changeImage('./assets/img/profile.png')">
+                        <i class="fas fa-user" style="margin-right: 25px;"></i>
+                        <div class="text">
+                            <h6>step 2:</h6>
+                            <h5>Make a Profile</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="step" onclick="changeImage('./assets/img/buy_sell.png')">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="text">
+                            <h6>step 3:</h6>
+                            <h5>Buy or Sell Books</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    
+    <!-- <section>
+        <img src="http://placehold.it/350x300?text=1" alt="1" id="imgDisp">
+        <button onclick="changeImage('http://placehold.it/350x300?text=1')">one</button>
+        <button onclick="changeImage('http://placehold.it/350x300?text=2')">two</button>
+        <button onclick="changeImage('http://placehold.it/350x300?text=3')">three</button>
+    </section> -->
     <div style="height: 500vh;"></div>
    
     <!-- Javascript files -->

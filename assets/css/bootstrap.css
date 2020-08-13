@@ -687,8 +687,9 @@ template {
 }
 
 .how .step h6 {
-  font-size: 0.75rem;
+  font-size: 0.5rem;
   margin-bottom: 0px;
+  color: #4F4F4F;
 }
 
 .how .step p {

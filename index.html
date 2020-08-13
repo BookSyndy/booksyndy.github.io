@@ -163,17 +163,19 @@
             <div class="row">
                 <div class="device device-galaxy-s8 device-blue mx-auto">
                     <div class="device-frame">
-                        <img class="device-content" src="./assets/img/download.png" alt="playstore" id="imgDisp">
+                        <img class="device-content" src="./assets/img/download.png" alt="playstore" id="imgDisp1">
                     </div>
                     <div class="device-stripe"></div>
                     <div class="device-header"></div>
                     <div class="device-sensors"></div>
                     <div class="device-btns"></div>
                     <div class="device-power"></div>
+                    <img src="./assets/img/buy_sell.png" alt="buy_sell" class="device-content-behind" style="top: -770px; right: 250px;" id="imgDisp2">
+                    <img src="./assets/img/profile.png" alt="signup" class="device-content-behind" style="top: -1510px; left: 250px;" id="imgDisp3">
                 </div>
                 <div class="col-lg-6">
                     <h1 class="how-title">How to start</h1>
-                    <div class="step" onclick="changeImage('./assets/img/download.png')">
+                    <div class="step" onclick="changeImageDownload()">
                         <i class="my-auto fas fa-download"></i>
                         <div class="text">
                             <h6>Step 1:</h6>
@@ -181,7 +183,7 @@
                             <p>Get the app from the Google Play Store. It's entirely free to download and use!</p>
                         </div>
                     </div>
-                    <div class="step" onclick="changeImage('./assets/img/profile.png')">
+                    <div class="step" onclick="changeImageSignup()">
                         <i class="my-auto fas fa-user" style="margin-right: 25px;"></i>
                         <div class="text">
                             <h6>Step 2:</h6>
@@ -189,7 +191,7 @@
                             <p>Enter a few quick details so we know who you are and what you're looking for.</p>
                         </div>
                     </div>
-                    <div class="step" onclick="changeImage('./assets/img/buy_sell.png')">
+                    <div class="step" onclick="changeImageEnjoy()">
                         <i class="my-auto fas fa-check-circle"></i>
                         <div class="text">
                             <h6>Step 3:</h6>

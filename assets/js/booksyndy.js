@@ -34,6 +34,45 @@ function changeImage(imgName) {
 	image.src = imgName;
 }
 
+img1=document.getElementById('imgDisp1')
+img2=document.getElementById('imgDisp2')
+img3=document.getElementById('imgDisp3')
+
+function changeImageDownload(){
+	img2.src = './assets/img/profile.png'
+	img1.src = './assets/img/download.png'
+	img3.src = './assets/img/buy_sell.png'
+}
+
+function changeImageSignup(){
+	img2.src = './assets/img/buy_sell.png'
+	img1.src = './assets/img/profile.png'
+	img3.src = './assets/img/download.png'
+}
+
+function changeImageEnjoy(){
+	img2.src = './assets/img/download.png'
+	img1.src = './assets/img/buy_sell.png'
+	img3.src = './assets/img/profile.png'
+}
+
+// var myimg= document.getElementById("imgDisp");
+// var images=[
+//     "./assets/img/buy_sell.png",
+// 	"./assets/img/profile.png",
+// 	"./assets/img/download.png",
+// ];
+
+// function change(){
+// 	myimg.src= images.reverse()[0];
+// };
+
+// setInterval(change,1000); 
+
+// function gatekeeper(esno){
+// 	var yesno = esno;
+// }
+
 // $('.step').click(function(){
 // 	$(this).toggleClass('clicked');
 // });

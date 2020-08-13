@@ -697,6 +697,17 @@ template {
   color: #00909E;
 }
 
+.device-content-behind {
+  /* border: 2px solid #222; */
+  position: relative;
+  border-radius: 34px;
+  height: 740px;
+  width: 360px;
+  z-index: -1;
+  transform: scale(0.9);
+  opacity: 0.75;
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;

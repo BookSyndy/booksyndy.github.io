@@ -800,8 +800,23 @@ template {
 
 /* section testimonials */
 
+.testimonials {
+  background-color: #00909E;
+  text-align: center;
+  margin-top: 2rem;
+}
 
+.testimonials p {
+  color: white;
+  font-weight: 300;
+}
 
+.testimonials h3 {
+  color: white;
+  margin: 2rem 0;
+  font-family: "montserrat", "sans-serif";
+  font-weight: 600;
+}
 
 
 h1, h2, h3, h4, h5, h6,

@@ -763,9 +763,6 @@ template {
 }
 
 @media (min-width:1400px) {
-  .how .container {
-    margin-top: 4rem;
-  }
   .how .device-galaxy-s8 {
     transform: scale(0.6);
     margin-top: -10rem
@@ -776,6 +773,9 @@ template {
 }
 
 @media (min-width:1700px) {
+  .how .container {
+    margin-top: 4rem;
+  }
   .how .how-title {
     margin-top: 0%;
     font-size: 4rem;

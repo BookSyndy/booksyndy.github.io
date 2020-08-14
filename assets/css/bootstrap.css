@@ -371,7 +371,7 @@ template {
 .home .device-galaxy-s8 {
   transform: scale(0.8);
   margin-top: -2rem;
-  transition: 750ms;
+  transition: 1s;
   z-index: 0;
 }
 
@@ -429,8 +429,8 @@ template {
 
 @media (min-width: 1200px) {
   .hero-text .btn:hover, .home .device-galaxy-s8:hover {
-    box-shadow: 0px 20px 35px -20px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0px 20px 35px -20px rgba(0, 0, 0, 0.5);
+    box-shadow: 20px 20px 35px -20px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 20px 20px 35px -20px rgba(0, 0, 0, 0.5);
   }
 
   .hero-text .btn:hover {

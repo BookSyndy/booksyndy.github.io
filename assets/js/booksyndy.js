@@ -81,3 +81,5 @@ $('.step').on('click', function(){
 // $('.step').click(function(){
 // 	$(this).toggleClass('clicked');
 // });
+console.log("Hello there")
+console.log("welcome to BookSyndy's website")

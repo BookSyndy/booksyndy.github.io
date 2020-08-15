@@ -809,6 +809,7 @@ template {
 .testimonials p {
   color: white;
   font-weight: 300;
+  font-size: 0.8rem;
 }
 
 .testimonials h3 {
@@ -818,6 +819,9 @@ template {
   font-weight: 600;
 }
 
+.testimonials .carousel-inner {
+  width: 300px;
+}
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {

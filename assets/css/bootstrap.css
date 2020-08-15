@@ -828,6 +828,7 @@ template {
 .testimonials .carousel-inner {
   width: 300px;
   height: 300px;
+  margin-bottom: 1rem;
 }
 
 .testimonials .fa-circle {
@@ -847,15 +848,24 @@ template {
 }
 
 @media (min-width:576px) {
-
+  .testimonials .carousel-inner {
+    width: 500px;
+    height: 200px;
+  }
 }
 
 @media (min-width: 768px) {
-
+  .testimonials .carousel-inner {
+    width: 600px;
+    height: 175px;
+  }
 }
 
 @media (min-width: 992px) {
-
+  .testimonials .carousel-control-prev, .testimonials .carousel-control-next {
+    position: absolute;
+    top: 20%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -867,7 +877,7 @@ template {
 }
 
 @media (min-width: 1700px) {
-  
+
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -7123,7 +7133,7 @@ a.close.disabled {
   text-align: center;
   /* opacity: 0.5; */
   transition: opacity 0.15s ease;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   margin-bottom: 3rem;
 }
 

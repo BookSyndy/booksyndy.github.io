@@ -63,7 +63,7 @@ $('.step').on('click', function(){
 
 $('.carousel').carousel({
 	interval: 7000,
-	ride: true,
+	ride: "carousel",
   })
 // $(".carousel").on("touchstart", function(event){
 // 	var xClick = event.originalEvent.touches[0].pageX;

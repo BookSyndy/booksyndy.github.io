@@ -61,6 +61,10 @@ $('.step').on('click', function(){
     $(this).addClass('selected');
 });
 
+$('.carousel').carousel({
+	interval: 7000,
+	ride: true,
+  })
 // $(".carousel").on("touchstart", function(event){
 // 	var xClick = event.originalEvent.touches[0].pageX;
 // $(this).one("touchmove", function(event){

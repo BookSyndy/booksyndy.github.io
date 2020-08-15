@@ -866,10 +866,24 @@ template {
     position: absolute;
     top: 20%;
   }
+  .testimonials {
+    margin-top: 0rem;
+  }
 }
 
 @media (min-width: 1200px) {
-
+  .testimonials .carousel-control-prev {
+    left: 100px;
+  }
+  .testimonials .carousel-control-next {
+    right: 100px;
+  }
+  .testimonials .carousel-inner {
+    margin-bottom: 2rem;
+  }
+  .testimonials h2 {
+    margin: 3rem 0;
+  }
 }
 
 @media (min-width: 1400px) {

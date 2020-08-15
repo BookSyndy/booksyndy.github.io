@@ -886,12 +886,16 @@ template {
   }
 }
 
-@media (min-width: 1400px) {
-
-}
-
 @media (min-width: 1700px) {
-
+  .testimonials .carousel-inner {
+    width: 800px;
+  }
+  .testimonials .carousel-control-prev {
+    left: 200px;
+  }
+  .testimonials .carousel-control-next {
+    right: 200px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6,

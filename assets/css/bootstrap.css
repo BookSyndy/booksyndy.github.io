@@ -898,6 +898,17 @@ template {
   }
 }
 
+/* youtube section */
+.youtube .container {
+  height: 50vh;
+  display: flex;
+}
+
+.youtube .container iframe {
+  border-radius: 0.5rem;
+  display: block;
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;

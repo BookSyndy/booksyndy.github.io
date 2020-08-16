@@ -900,13 +900,33 @@ template {
 
 /* youtube section */
 .youtube .container {
-  height: 50vh;
+  min-height: 50vh;
   display: flex;
 }
 
 .youtube .container iframe {
   border-radius: 0.5rem;
   display: block;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1700px) {
+
 }
 
 h1, h2, h3, h4, h5, h6,

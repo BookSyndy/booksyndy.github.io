@@ -910,15 +910,24 @@ template {
 }
 
 @media (min-width: 576px) {
-
+  
 }
 
 @media (min-width: 768px) {
-
+  .youtube .container iframe {
+    height: 400px;
+    width: 700px;
+  }
 }
 
 @media (min-width: 992px) {
-
+  .youtube .container {
+    min-height: 100vh;  
+  }
+  .youtube .container iframe {
+    height: 450px;
+    width: 800px;
+  }
 }
 
 @media (min-width: 1200px) {

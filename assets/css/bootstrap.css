@@ -944,7 +944,8 @@ template {
 /* footer */
 footer {
   background: #00909E;
-  padding: 4rem 0;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
   text-align: center;
 }
 
@@ -952,6 +953,9 @@ footer .container .title {
   color: #dae1e7;
   font-weight: 600;
   /* width: max-content; */
+}
+footer .container .title:hover {
+  color: white;
 }
 
 footer .container .row a {
@@ -965,9 +969,11 @@ footer .container .row a:hover {
 footer .nav {
   display: block;
   width: max-content;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-footer .nav .nav-item {
+footer .nav .nav-item{
   margin: 1rem 0;
 }
 
@@ -975,7 +981,7 @@ footer .container h3 {
   margin-top: 2rem;
 }
 
-footer .container .nav-icons {
+footer .container .col-lg-6 .nav-icons {
   width: max-content;
   font-size: 2rem;
   text-align: center;
@@ -986,7 +992,7 @@ footer .footer-icons{
 }
 
 @media (max-width: 992px){
-  footer .nav-icons .nav-link {
+  footer .nav-link {
     padding-left: 1rem !important;
   }
 }
@@ -995,8 +1001,23 @@ footer .footer-icons{
   footer {
     text-align: left;
   }
+  footer h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  footer .nav {
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+  }
   footer .container h3 {
     margin-top: 0rem;
+  }
+  footer .container .nav .nav-link {
+    padding-top: 0;
+  }
+  footer .nav .nav-item {
+    font-size: 0.75rem;
   }
 }
 

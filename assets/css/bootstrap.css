@@ -951,7 +951,7 @@ footer {
 footer .container .title {
   color: #dae1e7;
   font-weight: 600;
-  width: max-content;
+  /* width: max-content; */
 }
 
 footer .container .row a {

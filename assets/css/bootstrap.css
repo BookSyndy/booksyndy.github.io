@@ -963,10 +963,15 @@ footer .container .row a:hover {
 
 footer .nav {
   display: block;
+  width: max-content;
 }
 
 footer .nav .nav-item {
   margin: 1rem 0;
+}
+
+footer .container h3 {
+  margin-top: 2rem;
 }
 
 footer .container .nav-icons {
@@ -975,6 +980,20 @@ footer .container .nav-icons {
   text-align: center;
 }
 
+@media (max-width: 992px){
+  footer .nav-icons .nav-link {
+    padding-left: 1rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  footer {
+    text-align: left;
+  }
+  footer .container h3 {
+    margin-top: 0rem;
+  }
+}
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {

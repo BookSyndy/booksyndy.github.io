@@ -839,7 +839,7 @@ template {
   opacity: 1;
 }
 
-.carousel-control-next:focus .fa-angle-right, .carousel-control-prev:focus .fa-angle-left {
+.testimonials .carousel-control-next:focus .fa-angle-right, .carousel-control-prev:focus .fa-angle-left {
   color: #00909E;
 }
 
@@ -940,6 +940,30 @@ template {
     width: 975px;
   }
 }
+
+/* section why */
+.why {
+  text-align: center;
+}
+
+.why .wrapper {
+  min-height: 100vh;
+}
+
+.why .bg-text {
+  color: #dae1e7;
+  font-size: 11.5rem;
+  margin-left: -10%;
+}
+
+.why .why-title {
+  margin-top: -7rem;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+
+
 
 /* footer */
 footer {

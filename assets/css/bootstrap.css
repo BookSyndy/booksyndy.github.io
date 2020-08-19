@@ -958,8 +958,9 @@ template {
 
 .why .why-title {
   margin-top: -7rem;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
+  padding: 0 3rem;
 }
 
 

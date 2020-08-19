@@ -946,8 +946,8 @@ template {
   text-align: center;
 }
 
-.why .wrapper {
-  min-height: 100vh;
+.why .container {
+  min-height: 100vh !important;
 }
 
 .why .bg-text {
@@ -967,6 +967,9 @@ template {
   margin-top: 1rem;
 }
 
+.why .hero-paragraph {
+  margin-bottom: 1rem;
+}
 
 
 /* footer */

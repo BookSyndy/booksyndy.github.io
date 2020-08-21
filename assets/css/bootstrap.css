@@ -998,6 +998,21 @@ template {
   height: 200px;
 }
 
+.why .nest-link {
+  display: block;
+}
+
+
+.why .nest {
+  width: 300px;
+}
+
+.why h6 {
+  margin-bottom: 0;
+}
+
+
+
 @media (min-width: 576px) {
 
 }

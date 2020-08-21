@@ -1011,11 +1011,26 @@ template {
   width: 200px;
 }
 
-.why p {
+.why .collaboration p {
   margin-bottom: 5px;
   font-size: 1.25rem;
 }
 
+.why .volunteer {
+  font-size: 1.25rem;
+  padding: 0 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.why .volunteer-link {
+  color: #00909E;
+}
+
+.why .volunteer-link:hover {
+  color: #00abbb;
+  text-decoration: none;
+}
 
 
 @media (min-width: 576px) {

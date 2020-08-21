@@ -977,6 +977,10 @@ template {
   padding: 0 2rem;
 }
 
+.no-mobile {
+  display: none;
+}
+
 @media (min-width: 576px) {
 
 }

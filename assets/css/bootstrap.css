@@ -1056,7 +1056,7 @@ template {
     display: none;
   }
   .why .container .row {
-    margin: 2rem 0;
+    margin: 4rem 0;
   }
   .why .container .row .col-lg-4 {
     display: flex;
@@ -1064,6 +1064,10 @@ template {
   .why .container .row .col-lg-4 .collaboration {
     margin-top: auto !important;
     margin-bottom: auto !important;
+  }
+  .why .container iframe {
+    height: 320px;
+    width: 600px;
   }
 }
 

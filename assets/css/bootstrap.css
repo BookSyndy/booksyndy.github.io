@@ -1021,6 +1021,7 @@ template {
   padding: 0 1.25rem;
   margin-top: 1rem;
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 .why .volunteer-link {
@@ -1052,6 +1053,9 @@ template {
   }
   .why .mobile-para {
     display: none;
+  }
+  .why .container .row {
+    margin: 2rem 0;
   }
 }
 

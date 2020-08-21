@@ -975,11 +975,22 @@ template {
 .why .hero-paragraph {
   margin-bottom: 2rem;
   padding: 0 2rem;
-}
-
-.no-mobile {
+  margin-top: 0;
   display: none;
 }
+
+.why .mobile-para {
+  display: block;
+}
+
+.why .carousel {
+  margin-top: 1rem;
+}
+
+.why .col-lg-6 {
+  display: flex;
+}
+
 
 @media (min-width: 576px) {
 
@@ -990,7 +1001,16 @@ template {
 }
 
 @media (min-width: 992px) {
-
+  .why {
+    text-align: left;
+  }
+  .why .hero-paragraph {
+    display: flex;
+    width: 400px;
+  }
+  .why .mobile-para {
+    display: none;
+  }
 }
 
 @media (min-width:1200px) {

@@ -102,5 +102,6 @@ $('.carousel').carousel({
 // $('.step').click(function(){
 // 	$(this).toggleClass('clicked');
 // });
-console.log("Hello there")
-console.log("welcome to BookSyndy's website")
+console.log("Hello there, fellow Inspector")
+console.log("Welcome to BookSyndy's website")
+console.log("Designed and Developed by Advay Sai Inabathini")

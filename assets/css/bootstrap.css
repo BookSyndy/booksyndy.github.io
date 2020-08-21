@@ -998,17 +998,22 @@ template {
   height: 200px;
 }
 
+.why .collaboration {
+  width: max-content;
+  margin: 2rem 0;
+}
+
 .why .nest-link {
   display: block;
 }
 
-
 .why .nest {
-  width: 300px;
+  width: 200px;
 }
 
-.why h6 {
-  margin-bottom: 0;
+.why p {
+  margin-bottom: 5px;
+  font-size: 1.25rem;
 }
 
 

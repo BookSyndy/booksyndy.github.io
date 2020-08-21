@@ -1037,7 +1037,9 @@ template {
 }
 
 @media (min-width: 768px) {
-
+  .why .container iframe {
+    height: 400px;
+  }
 }
 
 @media (min-width: 992px) {

@@ -1005,6 +1005,7 @@ template {
 
 .why .nest-link {
   display: block;
+  transition: 750ms;
 }
 
 .why .nest {
@@ -1073,7 +1074,12 @@ template {
 }
 
 @media (min-width:1200px) {
-
+ .why .container .row {
+   margin: 6rem 0;
+ }
+ .why .nest-link:hover {
+   transform: scale(1.1);
+ }
 }
 
 @media (min-width: 1700px) {

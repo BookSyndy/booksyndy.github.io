@@ -985,6 +985,7 @@ template {
 .why .collaboration p {
   margin-bottom: 5px;
   font-size: 1.25rem;
+  text-align: center;
 }
 
 .why .volunteer {
@@ -1036,7 +1037,7 @@ template {
   .why .container iframe {
     height: 320px;
     width: 600px;
-  }
+  }  
 }
 
 @media (min-width:1200px) {
@@ -1051,7 +1052,11 @@ template {
  }
  .container .row .col-lg-4 .collaboration {
   margin-left: 5rem !important;
-}
+ }
+ .why .nest {
+  width: 300px;
+ }
+
 }
 
 @media (min-width: 1400px) {

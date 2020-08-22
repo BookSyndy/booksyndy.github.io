@@ -1080,10 +1080,22 @@ template {
  .why .nest-link:hover {
    transform: scale(1.1);
  }
+ .why .bg-text {
+    opacity: 0.5;
+ }
+}
+
+@media (min-width: 1400px) {
+  .why .container .row {
+    margin: 8rem 0;
+  }
 }
 
 @media (min-width: 1700px) {
-
+  .why .container iframe {
+    width: 900px;
+    height: 480px;
+  }
 }
 
 /* footer */

@@ -670,15 +670,16 @@ template {
   cursor: pointer;
 }
 
-.how .step.selected h5 {
+/* 
+.how .step.selected h5, .how .step:hover h5 {
   color: #00909E;
 }
 
-.how .step.selected p{
+.how .step.selected p, .how .step:hover p{
   color: black;
-}
+} */
 
-.how .step.selected {
+.how .step.selected, .how .step:hover {
   background-color: #dae1e7;
   transform: translateY(-5px);
   box-shadow: 0px 20px 35px -20px rgba(0, 0, 0, 0.5);

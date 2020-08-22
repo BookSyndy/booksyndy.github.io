@@ -732,7 +732,7 @@ template {
   width: 360px;
   z-index: -1;
   transform: scale(0.9);
-  opacity: 0.75;
+  opacity: 0.75 !important;
 }
 
 @media (min-width:576px) {

@@ -1088,6 +1088,9 @@ template {
  .why .bg-text {
     opacity: 0.5;
  }
+ .container .row .col-lg-4 .collaboration {
+  margin-left: 5rem !important;
+}
 }
 
 @media (min-width: 1400px) {
@@ -1103,6 +1106,9 @@ template {
   }
   .why .container .row {
     margin: 10rem 6rem 10rem 0;
+  }
+  .container .row .col-lg-4 .collaboration {
+    margin-left: 10rem !important;
   }
 }
 

@@ -437,6 +437,10 @@ template {
     background-color: #00abbb;
     border-color: #00abbb;
   }
+
+  .hero-text .main-button {
+    width: max-content;
+  }
 }
 
 @media (min-width: 1400px) {

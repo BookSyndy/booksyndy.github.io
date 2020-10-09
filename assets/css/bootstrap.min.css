@@ -981,10 +981,6 @@ footer .footer-icons {
         font-size: 4rem;
         margin-bottom: 0;
     }
-    footer p{
-        /* text-align: right; */
-        margin-right: 1rem;
-    }
     footer .nav {
         display: flex;
         margin-right: 0;

@@ -924,7 +924,15 @@ template {
 footer {
     background: #00909e;
     padding-top: 4rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+footer .container{
+    margin-bottom: 2rem;
+}
+footer p{
+    color: white;
+    font-size: 0.1rem;
     text-align: center;
 }
 footer .container .title {
@@ -972,6 +980,10 @@ footer .footer-icons {
     footer h1 {
         font-size: 4rem;
         margin-bottom: 0;
+    }
+    footer p{
+        /* text-align: right; */
+        margin-right: 1rem;
     }
     footer .nav {
         display: flex;

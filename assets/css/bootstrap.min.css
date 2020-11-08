@@ -782,8 +782,6 @@ template {
 }
 .why {
     text-align: center;
-}
-.why .container {
     min-height: 100vh !important;
 }
 .why .bg-text {
@@ -855,6 +853,7 @@ template {
     color: #00abbb;
     text-decoration: none;
 }
+
 @media (min-width: 768px) {
     .why .container iframe {
         height: 375px;

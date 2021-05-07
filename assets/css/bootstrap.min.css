@@ -1000,6 +1000,17 @@ footer .footer-icons {
     footer .nav .nav-item {
         font-size: 0.75rem;
     }
+    footer p{
+        padding: 0rem;
+        margin: 0rem;
+    }
+    footer .founder{
+        text-align: left;
+    }
+    footer .webdev{
+        text-align: right;
+        padding: 0px 20px 0px 15px;
+    }
 }
 @media (min-width: 1700px) {
     footer h1 {

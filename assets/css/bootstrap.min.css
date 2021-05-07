@@ -1003,13 +1003,22 @@ footer .footer-icons {
     footer p{
         padding: 0rem;
         margin: 0rem;
+        font-size: 0.75rem;
     }
     footer .founder{
         text-align: left;
     }
     footer .webdev{
         text-align: right;
-        padding: 0px 20px 0px 15px;
+        padding-right: 20px;
+    }
+}
+@media (min-width: 1400px) {
+    footer .founder{
+        padding-left: 2rem;
+    }
+    footer .webdev{
+        padding-right: 3rem;
     }
 }
 @media (min-width: 1700px) {

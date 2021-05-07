@@ -944,14 +944,15 @@ footer .container .title {
     color: #dae1e7;
     font-weight: 600;
 }
-footer .container .title:hover {
+/* footer .container .title:hover {
     color: #fff;
-}
-footer .container .row a {
+} */
+footer .row a {
     color: #dae1e7;
 }
-footer .container .row a:hover {
+footer .row a:hover {
     color: #fff;
+    text-decoration: none;
 }
 footer .nav {
     display: block;

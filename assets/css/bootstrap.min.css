@@ -929,11 +929,16 @@ footer .container {
     margin-bottom: 2rem;
 }
 footer p {
-    color: #fff;
-    font-size: 0.75rem;
     text-align: center;
-    margin-bottom: 0rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
     color: #dae1e7;
+}
+footer .webdev{
+    padding: 0rem 2.5rem 0rem 2.5rem;
+}
+footer .credits{
+    padding-left: 2rem;
 }
 footer .container .title {
     color: #dae1e7;

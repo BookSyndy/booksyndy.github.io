@@ -1015,10 +1015,10 @@ footer .footer-icons {
 }
 @media (min-width: 1400px) {
     footer .founder{
-        padding-left: 2rem;
+        padding-left: 10px;
     }
     footer .webdev{
-        padding-right: 3rem;
+        padding-right: 10px;
     }
 }
 @media (min-width: 1700px) {

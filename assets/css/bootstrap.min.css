@@ -975,6 +975,9 @@ footer .footer-icons {
     footer .nav-link {
         padding-left: 1rem !important;
     }
+    footer p {
+        margin-bottom: 1.5rem;
+    }
 }
 @media (min-width: 992px) {
     footer {
@@ -1012,7 +1015,7 @@ footer .footer-icons {
     }
 }
 @media (min-width: 1400px) {
-    footer .founder {
+    footer .copyright {
         padding-left: 10px;
     }
     footer .webdev {

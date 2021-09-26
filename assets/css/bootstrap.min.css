@@ -788,7 +788,7 @@ template {
     min-height: 100vh !important;
 }
 .why .bg-text {
-    color: #dae1e7;
+    color: #dae1e74f;
     font-size: 11.5rem;
     margin-left: -10%;
     position: relative;
